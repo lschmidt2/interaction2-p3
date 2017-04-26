@@ -1,0 +1,85 @@
+.container {
+  background: grey;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.maze-ball {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  background: yellow;
+  border-radius: 50%;
+  z-index: 2;
+  position: absolute;
+  top: 2%;
+  left: 51%;
+}
+
+.finishline {
+  border: 1px dashed white;
+  height: 45px;
+  width: 45px;
+  position: absolute;
+  left: 48%;
+  bottom: 2%;
+  z-index: 3;
+}
+
+.finishwin {
+  background: rgb(89,214,255);
+}
+
+.topleft {
+  background: black;
+  z-index: 1;
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.topright {
+  background: black;
+  z-index: 1;
+  width: 4%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 96%;
+}
+
+.bottomleft {
+  background: black;
+  z-index: 1;
+  width: 50%;
+  height: 28%;
+  position: absolute;
+  top: 61%;
+  left: 15%;
+}
+
+.bottomright {
+  background: black;
+  z-index: 1;
+  width: 39%;
+  height: 41%;
+  position: absolute;
+  top: 61%;
+  left: 61%;
+}
+
+.middlebox {
+  background: black;
+  z-index: 1;
+  width: 81%;
+  height: 39%;
+  position: absolute;
+  top: 12%;
+  left: 0%;
+}

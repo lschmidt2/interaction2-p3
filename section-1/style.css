@@ -1,0 +1,69 @@
+.shot {
+  width: 75px;
+  height: 75px;
+  position: absolute;
+  background: yellow;
+  border-radius: 50%;
+  z-index: 2;
+  top: 15%;
+  left: 10%;
+}
+
+.shot:hover {
+	border: 1px solid rgb(89,214,255);
+	cursor: hand;
+}
+
+.shotglass {
+  border: 1px dashed black;
+  background: rgb(89,214,255);
+  width: 46%;
+  height: 50%;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  z-index: 1;
+}
+
+.message {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  height: 50px;
+  width: 150px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 30pt;
+}
+
+
+
+/* DON'T DELETE THIS */
+
+html {
+  box-sizing: border-box;
+}
+
+*,*:before,*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+/* Clear Float */
+
+.cf:before,.cf:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}
+
+.cf {
+  *zoom: 1;
+}
